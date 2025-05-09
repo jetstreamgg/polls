@@ -1,30 +1,32 @@
 ---
-title: Atlas Edit Weekly Cycle Proposal - May 5, 2025
+title: Atlas Edit Weekly Cycle Proposal - TEST
 summary: This Atlas Edit 1) defines the process for the MKR-to-SKY upgrade, 2) updates the entities authorized to validate Standby Spells, 3) adds documentation regarding Protego, 4) clarifies the short-term logic for Agent Artifact updates, 5) removes the outdated document for recentering the Maker brand.
 discussion_link: https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-may-5-2025/26319
 parameters:
-    input_format:
-        type: single-choice
-        abstain: [0]
-    victory_conditions:
-        - {
-            type: 'and',
-            conditions: [
-                { type : plurality },
-                { type : comparison, comparator : '>=', value: 20000 }
-            ]
-        }
-        - {type : default, value : 2 }
-    result_display: single-vote-breakdown
+  input_format:
+    type: single-choice
+    abstain: [0]
+  victory_conditions:
+    - {
+        type: 'and',
+        conditions:
+          [
+            { type: plurality },
+            { type: comparison, comparator: '>=', value: 20000 },
+          ],
+      }
+    - { type: default, value: 2 }
+  result_display: single-vote-breakdown
 version: v2.0.0
 options:
-   0: Abstain
-   1: Yes
-   2: No
+  0: Abstain
+  1: Yes
+  2: No
 start_date: 2025-05-05T16:00:00
-end_date: 2025-05-08T16:00:00
+end_date: 2025-05-21T16:00:00
 ---
-# Atlas Edit Weekly Cycle Proposal - May 5, 2025
+
+# Atlas Edit Weekly Cycle Proposal - TEST
 
 The Governance Facilitators have placed an [Atlas Edit Weekly Cycle Proposal](https://sky-atlas.powerhouse.io/A.1.10.1.1_Edits_To_The_Atlas/115f2ff0-8d73-80a9-af46-ef481d81934e%7C0db303084211) into the [voting system](https://vote.makerdao.com/polling) [on behalf of Prime Delegate cloaky](https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-may-5-2025/26319/4). This Governance Poll will be active for three days beginning on Monday, May 5 at 16:00 UTC.
 
