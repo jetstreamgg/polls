@@ -46,7 +46,7 @@
   {
     "path": "2025/Atlas Edit Weekly Cycle Proposal - May 5, 2025.md",
     "metadata": {
-      "title": "Atlas Edit Weekly Cycle Proposal - May 5, 2025",
+      "title": "Atlas Edit Weekly Cycle Proposal - TEST",
       "summary": "This Atlas Edit 1) defines the process for the MKR-to-SKY upgrade, 2) updates the entities authorized to validate Standby Spells, 3) adds documentation regarding Protego, 4) clarifies the short-term logic for Agent Artifact updates, 5) removes the outdated document for recentering the Maker brand.",
       "discussion_link": "https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-may-5-2025/26319",
       "parameters": {
@@ -84,7 +84,7 @@
         "2": "No"
       },
       "start_date": "2025-05-05T16:00:00.000Z",
-      "end_date": "2025-05-08T16:00:00.000Z"
+      "end_date": "2025-05-21T16:00:00.000Z"
     }
   },
   {
