@@ -1,16 +1,15 @@
 [
   {
-    "path": "2025/2025-04-14-atlas-edits-2.md",
+    "path": "2025/2025-05-26-Atlas-edit-weekly-cycle-proposal.md",
     "metadata": {
-      "title": "Atlas Edit Weekly Cycle Proposal - April 14, 2025",
-      "summary": "Signal your support or opposition to this Atlas edit, which 1) modifies SKY and Star token emissions, 2) increases the Integration Boost budget, and 3) modifies the Sky Ecosystem Liquidity Bootstrapping provisions.",
-      "discussion_link": "https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2024-11-11-0/25507",
+      "title": "Atlas Edit Weekly Cycle Proposal - May 26, 2025",
+      "summary": "This Atlas Edit 1) builds out the Allocation System Primitive, 2) adds Spark-Launch Agent 1 Ecosystem Accord, 3) adds Sky-Spark-Launch Agent 1 Ecosystem Accord, 4) adds logic regarding key interest rates, 5) updates Risk Framework, 6) renames First Loss Capital To Junior Risk Capital, 7) updates logic regarding distribution of Agent Tokens, 8) updates Spark Liquidity Layer documentation, 9) updates Spark Artifact based on Ecosystem Accords, 10) updates Launch Agent 1 Artifact based on Ecosystem Accords.",
+      "discussion_link": "https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-05-26/26454/",
       "parameters": {
         "input_format": {
           "type": "single-choice",
-          "abstain": [
-            0
-          ]
+          "abstain": [0],
+          "options": []
         },
         "victory_conditions": [
           {
@@ -22,7 +21,7 @@
               {
                 "type": "comparison",
                 "comparator": ">=",
-                "value": 20000
+                "value": 480000000
               }
             ]
           },
@@ -39,40 +38,25 @@
         "1": "Yes",
         "2": "No"
       },
-      "start_date": "2025-04-14T16:00:00.000Z",
-      "end_date": "2026-04-14T16:00:00.000Z"
+      "start_date": "2025-05-26T16:00:00.000Z",
+      "end_date": "2025-05-29T16:00:00.000Z"
     }
   },
   {
-    "path": "2025/Atlas Edit Weekly Cycle Proposal - May 5, 2025.md",
+    "path": "2025/2025-05-26-Spark-Morpho-market-onboarding.md",
     "metadata": {
-      "title": "Atlas Edit Weekly Cycle Proposal - TEST",
-      "summary": "This Atlas Edit 1) defines the process for the MKR-to-SKY upgrade, 2) updates the entities authorized to validate Standby Spells, 3) adds documentation regarding Protego, 4) clarifies the short-term logic for Agent Artifact updates, 5) removes the outdated document for recentering the Maker brand.",
-      "discussion_link": "https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-may-5-2025/26319",
+      "title": "SparkLend Mainnet - Onboard August PT-USDS to Morpho Spark DAI Vault - May 26, 2025",
+      "summary": "Signal your support or opposition to onboarding PT-USDS-14Aug2025 to the Morpho DAI vault.",
+      "discussion_link": "https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell-2/26440",
       "parameters": {
         "input_format": {
           "type": "single-choice",
-          "abstain": [
-            0
-          ]
+          "abstain": [0],
+          "options": []
         },
         "victory_conditions": [
           {
-            "type": "and",
-            "conditions": [
-              {
-                "type": "plurality"
-              },
-              {
-                "type": "comparison",
-                "comparator": ">=",
-                "value": 20000
-              }
-            ]
-          },
-          {
-            "type": "default",
-            "value": 2
+            "type": "plurality"
           }
         ],
         "result_display": "single-vote-breakdown"
@@ -83,40 +67,25 @@
         "1": "Yes",
         "2": "No"
       },
-      "start_date": "2025-05-05T16:00:00.000Z",
-      "end_date": "2025-05-21T16:00:00.000Z"
+      "start_date": "2025-05-26T16:00:00.000Z",
+      "end_date": "2025-05-29T16:00:00.000Z"
     }
   },
   {
-    "path": "2025/Test poll #1.md",
+    "path": "2025/2025-05-26-Spark-rate-limits-update.md",
     "metadata": {
-      "title": "Test poll",
-      "summary": "Signal your support or opposition to this Atlas edit, which 1) modifies SKY and Star token emissions, 2) increases the Integration Boost budget, and 3) modifies the Sky Ecosystem Liquidity Bootstrapping provisions.",
-      "discussion_link": "https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2024-11-11-0/25507",
+      "title": "SparkLend Liquidity Layer Mainnet - Increase USDe Mint and Staking Rate Limits - May 26, 2025",
+      "summary": "Signal your support or opposition to increasing the USDe Mint and Staking Rate Limits on the Spark Liquidity Layer.",
+      "discussion_link": "https://forum.sky.money/t/may-29-2025-proposed-changes-to-spark-for-upcoming-spell-2/26440",
       "parameters": {
         "input_format": {
           "type": "single-choice",
-          "abstain": [
-            0
-          ]
+          "abstain": [0],
+          "options": []
         },
         "victory_conditions": [
           {
-            "type": "and",
-            "conditions": [
-              {
-                "type": "plurality"
-              },
-              {
-                "type": "comparison",
-                "comparator": ">=",
-                "value": 20000
-              }
-            ]
-          },
-          {
-            "type": "default",
-            "value": 2
+            "type": "plurality"
           }
         ],
         "result_display": "single-vote-breakdown"
@@ -127,40 +96,25 @@
         "1": "Yes",
         "2": "No"
       },
-      "start_date": "2026-06-14T16:00:00.000Z",
-      "end_date": "2027-04-14T16:00:00.000Z"
+      "start_date": "2025-05-26T16:00:00.000Z",
+      "end_date": "2025-05-29T16:00:00.000Z"
     }
   },
   {
-    "path": "2025/Test poll #2.md",
+    "path": "2025/2025-06-02-Add-SLL-to-Spark-DAI-Morpho-Vault-Allocator-role.md",
     "metadata": {
-      "title": "Test poll",
-      "summary": "Signal your support or opposition to this Atlas edit, which 1) modifies SKY and Star token emissions, 2) increases the Integration Boost budget, and 3) modifies the Sky Ecosystem Liquidity Bootstrapping provisions.",
-      "discussion_link": "https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2024-11-11-0/25507",
+      "title": "Spark Liquidity Layer Mainnet - Add Spark Liquidity Layer to Spark DAI Morpho Vault Allocator Role - June 2, 2025",
+      "summary": "Signal your support or opposition to adding the Spark Liquidity Layer to the Allocator Role of the Spark DAI Morpho Vault.",
+      "discussion_link": "https://forum.sky.money/t/june-12-2025-proposed-changes-to-spark-for-upcoming-spell/26559",
       "parameters": {
         "input_format": {
           "type": "single-choice",
-          "abstain": [
-            0
-          ]
+          "abstain": [0],
+          "options": []
         },
         "victory_conditions": [
           {
-            "type": "and",
-            "conditions": [
-              {
-                "type": "plurality"
-              },
-              {
-                "type": "comparison",
-                "comparator": ">=",
-                "value": 20000
-              }
-            ]
-          },
-          {
-            "type": "default",
-            "value": 2
+            "type": "plurality"
           }
         ],
         "result_display": "single-vote-breakdown"
@@ -171,22 +125,21 @@
         "1": "Yes",
         "2": "No"
       },
-      "start_date": "2025-05-04T16:00:00.000Z",
-      "end_date": "2025-05-07T16:00:00.000Z"
+      "start_date": "2025-06-02T16:00:00.000Z",
+      "end_date": "2025-06-05T16:00:00.000Z"
     }
   },
   {
-    "path": "2025/Test poll #3.md",
+    "path": "2025/2025-06-02-Atlas-edit-weekly-cycle-proposal.md",
     "metadata": {
-      "title": "Test poll",
-      "summary": "Test poll",
-      "discussion_link": "https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-2025-05-14-0/25507",
+      "title": "Atlas Edit Weekly Cycle Proposal - June 2, 2025",
+      "summary": "This proposal sets forth the core deflationary tokenomics of the SKY token.",
+      "discussion_link": "https://forum.sky.money/t/atlas-edit-weekly-cycle-proposal-week-of-june-2-2025/26535",
       "parameters": {
         "input_format": {
           "type": "single-choice",
-          "abstain": [
-            0
-          ]
+          "abstain": [0],
+          "options": []
         },
         "victory_conditions": [
           {
@@ -198,7 +151,7 @@
               {
                 "type": "comparison",
                 "comparator": ">=",
-                "value": 20000
+                "value": 480000000
               }
             ]
           },
@@ -215,8 +168,240 @@
         "1": "Yes",
         "2": "No"
       },
-      "start_date": "2025-05-14T16:00:00.000Z",
-      "end_date": "2025-05-21T16:00:00.000Z"
+      "start_date": "2025-06-02T16:00:00.000Z",
+      "end_date": "2025-06-05T16:00:00.000Z"
+    }
+  },
+  {
+    "path": "2025/2025-06-02-morpho-dai-vault-update-vault-fee.md",
+    "metadata": {
+      "title": "Spark DAI Morpho Vault Mainnet - Update Vault Fee - June 2, 2025",
+      "summary": "Signal your support or opposition to increasing the Vault Fee of the Spark DAI Morpho Vault on mainnet.",
+      "discussion_link": "https://forum.sky.money/t/june-12-2025-proposed-changes-to-spark-for-upcoming-spell/26559",
+      "parameters": {
+        "input_format": {
+          "type": "single-choice",
+          "abstain": [0],
+          "options": []
+        },
+        "victory_conditions": [
+          {
+            "type": "plurality"
+          }
+        ],
+        "result_display": "single-vote-breakdown"
+      },
+      "version": "v2.0.0",
+      "options": {
+        "0": "Abstain",
+        "1": "Yes",
+        "2": "No"
+      },
+      "start_date": "2025-06-02T16:00:00.000Z",
+      "end_date": "2025-06-05T16:00:00.000Z"
+    }
+  },
+  {
+    "path": "2025/2025-06-02-morpho-usdc-vault-update-vault-fee.md",
+    "metadata": {
+      "title": "Spark USDC Morpho Vault Base - Update Vault Fee - June 2, 2025",
+      "summary": "Signal your support or opposition to increasing the Vault Fee of the Spark USDC Morpho Vault on Base.",
+      "discussion_link": "https://forum.sky.money/t/june-12-2025-proposed-changes-to-spark-for-upcoming-spell/26559",
+      "parameters": {
+        "input_format": {
+          "type": "single-choice",
+          "abstain": [0],
+          "options": []
+        },
+        "victory_conditions": [
+          {
+            "type": "plurality"
+          }
+        ],
+        "result_display": "single-vote-breakdown"
+      },
+      "version": "v2.0.0",
+      "options": {
+        "0": "Abstain",
+        "1": "Yes",
+        "2": "No"
+      },
+      "start_date": "2025-06-02T16:00:00.000Z",
+      "end_date": "2025-06-05T16:00:00.000Z"
+    }
+  },
+  {
+    "path": "2025/2025-06-02-Onboard-new-Ethena-PTs-to-Spark-Morpho-vault.md",
+    "metadata": {
+      "title": "Spark DAI Morpho Vault Mainnet - Onboard New Ethena PTs to the Morpho Spark DAI Vault - June 2, 2025",
+      "summary": "Signal your support or opposition to onboarding new Ethena PTs to the Morpho Spark DAI Vault.",
+      "discussion_link": "https://forum.sky.money/t/june-12-2025-proposed-changes-to-spark-for-upcoming-spell/26559",
+      "parameters": {
+        "input_format": {
+          "type": "single-choice",
+          "abstain": [0],
+          "options": []
+        },
+        "victory_conditions": [
+          {
+            "type": "plurality"
+          }
+        ],
+        "result_display": "single-vote-breakdown"
+      },
+      "version": "v2.0.0",
+      "options": {
+        "0": "Abstain",
+        "1": "Yes",
+        "2": "No"
+      },
+      "start_date": "2025-06-02T16:00:00.000Z",
+      "end_date": "2025-06-05T16:00:00.000Z"
+    }
+  },
+  {
+    "path": "2025/2025-06-02-Reduce-supply-caps-for-inactive-morpho-pools.md",
+    "metadata": {
+      "title": "Spark DAI Morpho Vault Mainnet – Reduce Supply Cap for Inactive Pools - June 2, 2025",
+      "summary": "Signal your support or opposition to reducing the supply caps of the inactive pools in the Spark DAI Morpho Vault on mainnet.",
+      "discussion_link": "https://forum.sky.money/t/june-12-2025-proposed-changes-to-spark-for-upcoming-spell/26559",
+      "parameters": {
+        "input_format": {
+          "type": "single-choice",
+          "abstain": [0],
+          "options": []
+        },
+        "victory_conditions": [
+          {
+            "type": "plurality"
+          }
+        ],
+        "result_display": "single-vote-breakdown"
+      },
+      "version": "v2.0.0",
+      "options": {
+        "0": "Abstain",
+        "1": "Yes",
+        "2": "No"
+      },
+      "start_date": "2025-06-02T16:00:00.000Z",
+      "end_date": "2025-06-05T16:00:00.000Z"
+    }
+  },
+  {
+    "path": "2025/2025-06-02-SLL-Update-syrupUSDC-Rate-limits.md",
+    "metadata": {
+      "title": "Spark Liquidity Layer Mainnet - Update syrupUSDC Rate Limits - June 2, 2025",
+      "summary": "Signal your support or opposition to updating the syrupUSDC Rate Limits for the Spark Liquidity Layer on mainnet.",
+      "discussion_link": "https://forum.sky.money/t/june-12-2025-proposed-changes-to-spark-for-upcoming-spell/26559",
+      "parameters": {
+        "input_format": {
+          "type": "single-choice",
+          "abstain": [0],
+          "options": []
+        },
+        "victory_conditions": [
+          {
+            "type": "plurality"
+          }
+        ],
+        "result_display": "single-vote-breakdown"
+      },
+      "version": "v2.0.0",
+      "options": {
+        "0": "Abstain",
+        "1": "Yes",
+        "2": "No"
+      },
+      "start_date": "2025-06-02T16:00:00.000Z",
+      "end_date": "2025-06-05T16:00:00.000Z"
+    }
+  },
+  {
+    "path": "2025/2025-06-02-Spark-liquidity-layer-onboard-spark-dai-morpho-vault.md",
+    "metadata": {
+      "title": "Spark Liquidity Layer Mainnet – Onboard Spark DAI Morpho Vault - June 2, 2025",
+      "summary": "Signal your support or opposition to onboarding the Spark DAI Morpho Vault to the Spark Liquidity Layer on mainnet.",
+      "discussion_link": "https://forum.sky.money/t/june-12-2025-proposed-changes-to-spark-for-upcoming-spell/26559",
+      "parameters": {
+        "input_format": {
+          "type": "single-choice",
+          "abstain": [0],
+          "options": []
+        },
+        "victory_conditions": [
+          {
+            "type": "plurality"
+          }
+        ],
+        "result_display": "single-vote-breakdown"
+      },
+      "version": "v2.0.0",
+      "options": {
+        "0": "Abstain",
+        "1": "Yes",
+        "2": "No"
+      },
+      "start_date": "2025-06-02T16:00:00.000Z",
+      "end_date": "2025-06-05T16:00:00.000Z"
+    }
+  },
+  {
+    "path": "2025/2025-06-02-sparklend-update-ezeth-parameters.md",
+    "metadata": {
+      "title": "SparkLend Mainnet - Update ezETH Parameters - June 2, 2025",
+      "summary": "Signal your support or opposition to updating the ezETH parameters for SparkLend on mainnet.",
+      "discussion_link": "https://forum.sky.money/t/june-12-2025-proposed-changes-to-spark-for-upcoming-spell/26559",
+      "parameters": {
+        "input_format": {
+          "type": "single-choice",
+          "abstain": [0],
+          "options": []
+        },
+        "victory_conditions": [
+          {
+            "type": "plurality"
+          }
+        ],
+        "result_display": "single-vote-breakdown"
+      },
+      "version": "v2.0.0",
+      "options": {
+        "0": "Abstain",
+        "1": "Yes",
+        "2": "No"
+      },
+      "start_date": "2025-06-02T16:00:00.000Z",
+      "end_date": "2025-06-05T16:00:00.000Z"
+    }
+  },
+  {
+    "path": "2025/2025-06-02-update-sparklend-stablecoin-market-reserve-factors.md",
+    "metadata": {
+      "title": "SparkLend Mainnet - Update Stablecoin Market Reserve Factors - June 2, 2025",
+      "summary": "Signal your support or opposition to updating the stablecoin market reserve factors for SparkLend on mainnet.",
+      "discussion_link": "https://forum.sky.money/t/june-12-2025-proposed-changes-to-spark-for-upcoming-spell/26559",
+      "parameters": {
+        "input_format": {
+          "type": "single-choice",
+          "abstain": [0],
+          "options": []
+        },
+        "victory_conditions": [
+          {
+            "type": "plurality"
+          }
+        ],
+        "result_display": "single-vote-breakdown"
+      },
+      "version": "v2.0.0",
+      "options": {
+        "0": "Abstain",
+        "1": "Yes",
+        "2": "No"
+      },
+      "start_date": "2025-06-02T16:00:00.000Z",
+      "end_date": "2025-06-05T16:00:00.000Z"
     }
   }
 ]
